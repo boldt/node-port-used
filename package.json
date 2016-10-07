@@ -1,11 +1,15 @@
 {
   "name": "node-port-used",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Express based service to verify, if different services are running",
   "scripts": {
     "start": "node index"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Dennis Boldt",
+  "license": "",
+  "dependencies": {
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "passport": "^0.3.2"
+  }
 }
